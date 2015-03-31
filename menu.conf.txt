@@ -1,0 +1,41 @@
+//menu.conf -  Hierarchy of menus IregularVerbs0.1
+[MAIN_MENU]
+$Create new account
+$Log in
+$End
+[END]
+
+[USER_CHOICES]
+Start $memorizing
+Start $testing
+$Statistics
+$Log out
+[END]
+
+[SUBMENU_LEARN]
+Start from $top
+$Continue learning
+$Random learning
+Choose $letter
+$Back
+[END]
+
+[SUBMENU_TEST]
+$Infinitive test
+$Random test
+$Time test
+$Back
+[END]
+
+[SUBMENU_STAT]
+$Current session
+$Last time session
+$Overall statistics
+Change login $data
+$Back
+[END]
+
+[SUBMENU_YES_NO]
+$No
+$Yes
+[END]
